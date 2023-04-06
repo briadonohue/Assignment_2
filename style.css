@@ -1,71 +1,70 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  html {
-    font: 62.5% "segoe ui", helvetica, arial, sans-serif;
-    background-color: #fff;
-  }
-  
-  body {
-    font-size: 1.6rem;
-  }
-  
-  .header {
-    background-color: #0078d7;
-    color: #fff;
-    padding: 2rem;
-  }
-  
-  .navigation {
-    margin-top: 2rem;
-  }
-  
-  .navigation li {
-    display: inline-block;
-    margin-right: 1rem;
-  }
-  html,
-  body,
-  #container {
-    background-color: #ccc;
-    font-family: Roboto,Times,serif;
-    width: 100%;
-    display: flex;
-  }
-  
-  .artist-album-tile {
-    border: 1px solid black;
-    padding: 10px;
-    border-radius: 6px;
-    margin-bottom: 12px;
-  }
-  
-  .artist-album-tile:hover {
-    cursor: pointer;
-    background-color: #a9cff7;
-  }
-  
-  .artist-name {
-    font-size: 15px;
-    font-weight: 700;
-  }
-  
-  .album-title {}
-  
-  .column {
-    margin: 0;
-    flex: 1 0 50%;
-    box-sizing: border-box;
-  }
-  
-  #right {
-    padding: 8px;
-  }
-  
-  #right img {
-    width: 100%;
-  }
-  
-  
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font: 62.5% "segoe ui", helvetica, arial, sans-serif;
+  background-color: #fff;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.header {
+  background-color: #0078d7;
+  color: #fff;
+  padding: 2rem;
+}
+
+.navigation {
+  margin-top: 2rem;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+html,
+body,
+#container {
+  background-color: #ccc;
+  font-family: Roboto,Times,serif;
+  width: 100%;
+  display: flex;
+}
+
+.artist-album-tile {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.artist-album-tile:hover {
+  cursor: pointer;
+  background-color: #a9cff7;
+}
+
+.artist-name {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.album-title {}
+
+.column {
+  margin: 0;
+  flex: 1 0 50%;
+  box-sizing: border-box;
+}
+
+#right {
+  padding: 8px;
+}
+
+#right img {
+  width: 100%;
+}
+
